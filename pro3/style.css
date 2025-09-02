@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image:url('Girl.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: #fff;
+}
+.ul-lists{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.ul-lists li{
+    padding: 0 10px;
+}
+.button {
+    height: 20px;
+    width: 100px;
+    background-color: #7872E7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 15px 0 0 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0 0 0;
+
+}
+.main div {
+    padding: 0 50px;
+}
+.first h1 , p{
+    color: #fff;
+    font-size: 22px;
+}
+.first button{
+        height: 25px;
+    width: 120px;
+    background-color: #7872E7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 15px 0 0 0
+}
+.second{
+        height: 150px;
+    width: 200px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.second h3{
+    margin: -10px 0 0 0 ;
+}
+.second input{
+    margin:0 0 10px 0 ;
+    border: 1px solid lightgray;
+}
+.second input::placeholder {
+    font-size:11px ;
+    padding: 3px;
+}
+.second button{
+    height: 25px;
+    width: 120px;
+    background-color: #7872E7;
+    color: #fff;
+    margin: 0 0 0 0;
+    border: none;
+    border-radius: 5px;
+}

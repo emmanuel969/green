@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-image: url('coal.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul-lists {
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+.ul-lists{
+    color: #fff;
+}
+.ul-lists img{
+    height: 25px;
+    width: 25px;
+}
+.hero{
+    margin: 12rem 0 0 30rem;
+}
+.hero h3{
+    font-size: 40px;
+    color: #fff;
+    font-family: cursive;
+    margin: 0 0 -5px 0;
+}
+.hero h2{
+    font-size: 35px;
+    color: #fff;
+    margin: 0 0 0 15px;
+}
+.hero button{
+    background-color:gray;
+    color:#fff;
+    border: rebeccapurple;
+    border-radius: 15px;
+    
+}
